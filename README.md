@@ -35,7 +35,7 @@ The tool has the following arguments:
 
 - `-h, --help`: Show the help message and exit.
 - `-i I`: Number of repeated iterations (default: 1).
-- `-m {0,1,2,3,4}`: Removal method (default: None).
+- `-m {0,1,2,3,4,5}`: Removal method (default: None).
 - `-p {0,10,20,30,40,50,60,70,80,90}`: Removal percentage (default: 0).
 - `-n {Barabasi-1000-100,Barabasi-1000-500,Barabasi-1000-50,ER-1000-0.1,ER-1000-0.2,ER-1000-0.5,WS-1000-100-0.01,WS-1000-200-0.01,WS-1000-500-0.01,BIOGRID-ORGANISM-Saccharomyces_cerevisiae_S288c-4.4.215.tab3.csv,YeastGRNNetwork.csv,STRING-4932.protein.links.v11.5.txt,iMM904-gemtracted-ReactionNetwork.csv,iMM904-gemtracted-MetabolicNetwork.csv,CPDB_Yeast_PPI.csv}`: Choose network (default: None).
 
