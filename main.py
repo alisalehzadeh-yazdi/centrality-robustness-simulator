@@ -37,7 +37,7 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument("-i", type=int, default=1, help="number of repeated iterations")
 parser.add_argument(
-    "-m", type=int, required=True, choices=range(0, 5), help="removal method"
+    "-m", type=int, required=True, choices=range(0, 6), help="removal method"
 )
 parser.add_argument(
     "-p", type=int, default=0, choices=range(0, 100, 10), help="removal percentage"
